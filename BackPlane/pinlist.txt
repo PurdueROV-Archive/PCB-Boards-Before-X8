@@ -1,0 +1,614 @@
+Pinlist
+
+Exported from BackPlane.brd at 3/5/2015 11:53:49 PM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Part     Pad      Net
+
+ALTDATA  C1       COM_A
+         C2       COM_B
+         C3       COM_X
+         C4       COM_Y
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+ALTVIDEO C1       VOUT1
+         C2       GND
+         C3       VOUT2
+         C4       GND
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+APPLICATION_ P1.1     LEDPWR1
+         P1.2     LEDPWR1
+         P1.3     LEDPWR1
+         P1.4     LEDPWR1
+         P1.5     LEDPWR1
+         P1.6     LEDPWR1
+         P1.7     LEDPWR1
+         P1.8     LEDPWR1
+         P10.1    +12V
+         P10.2    +12V
+         P10.3    +12V
+         P10.4    +12V
+         P10.5    +12V
+         P10.6    +12V
+         P10.7    +12V
+         P10.8    +12V
+         P11.1    GND
+         P11.2    GND
+         P11.3    GND
+         P11.4    GND
+         P11.5    GND
+         P11.6    GND
+         P11.7    GND
+         P11.8    GND
+         P12.1    +48V_FILT
+         P12.2    +48V_FILT
+         P12.3    +48V_FILT
+         P12.4    +48V_FILT
+         P12.5    +48V_FILT
+         P12.6    +48V_FILT
+         P12.7    +48V_FILT
+         P12.8    +48V_FILT
+         P2.1     LEDPWR2
+         P2.2     LEDPWR2
+         P2.3     LEDPWR2
+         P2.4     LEDPWR2
+         P2.5     LEDPWR2
+         P2.6     LEDPWR2
+         P2.7     LEDPWR2
+         P2.8     LEDPWR2
+         P3.1     LEDPWR3
+         P3.2     LEDPWR3
+         P3.3     LEDPWR3
+         P3.4     LEDPWR3
+         P3.5     LEDPWR3
+         P3.6     LEDPWR3
+         P3.7     LEDPWR3
+         P3.8     LEDPWR3
+         P4.1     LEDPWR4
+         P4.2     LEDPWR4
+         P4.3     LEDPWR4
+         P4.4     LEDPWR4
+         P4.5     LEDPWR4
+         P4.6     LEDPWR4
+         P4.7     LEDPWR4
+         P4.8     LEDPWR4
+         P5.1     LEDPWR5
+         P5.2     LEDPWR5
+         P5.3     LEDPWR5
+         P5.4     LEDPWR5
+         P5.5     LEDPWR5
+         P5.6     LEDPWR5
+         P5.7     LEDPWR5
+         P5.8     LEDPWR5
+         P6.1     CLAW+
+         P6.2     CLAW+
+         P6.3     CLAW+
+         P6.4     CLAW+
+         P6.5     CLAW+
+         P6.6     CLAW+
+         P6.7     CLAW+
+         P6.8     CLAW+
+         P7.1     CLAW-
+         P7.2     CLAW-
+         P7.3     CLAW-
+         P7.4     CLAW-
+         P7.5     CLAW-
+         P7.6     CLAW-
+         P7.7     CLAW-
+         P7.8     CLAW-
+         P8.1     TURN+
+         P8.2     TURN+
+         P8.3     TURN+
+         P8.4     TURN+
+         P8.5     TURN+
+         P8.6     TURN+
+         P8.7     TURN+
+         P8.8     TURN+
+         P9.1     TURN-
+         P9.2     TURN-
+         P9.3     TURN-
+         P9.4     TURN-
+         P9.5     TURN-
+         P9.6     TURN-
+         P9.7     TURN-
+         P9.8     TURN-
+         S1       S1
+         S10      STEP2A2
+         S11      STEP2B1
+         S12      STEP2B2
+         S13      STEP1A1
+         S14      STEP1A2
+         S15      STEP1B1
+         S16      STEP1B2
+         S17      VPROBE3
+         S18      VPROBE2
+         S19      VPROBE1
+         S2       S2
+         S20      EXTGND
+         S21      +5V_SERVO1
+         S22      +5V_SERVO2
+         S23      S23
+         S24      S24
+         S25      CLAWPWM2
+         S26      CLAWPWM1
+         S27      LEDPWM5
+         S28      LEDPWM4
+         S29      LEDPWM3
+         S3       S3
+         S30      LEDPWM2
+         S31      LEDPWM1
+         S32      BILGE
+         S33      STEP1
+         S34      STEPEN
+         S35      SERVO2CURRENT
+         S36      SERVO1CURRENT
+         S37      TURNCURRENT
+         S38      TURNPWM2
+         S39      TURNPWM1
+         S4       S4
+         S40      CLAWCURRENT
+         S41      BILGEPWM
+         S42      STEPDIR2
+         S43      STEP2
+         S44      STEPDIR1
+         S45      S45
+         S46      S46
+         S47      +3V3
+         S48      +5V
+         S5       S5
+         S6       VSEN3
+         S7       VSEN2
+         S8       VSEN1
+         S9       STEP2A1
+
+BILGEPUMP C1       GND
+         C2       GND
+         C3       BILGE
+         C4       BILGE
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+CLAWMOTOR C1       CLAW+
+         C2       CLAW+
+         C3       CLAW-
+         C4       CLAW-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+CLAWSERVO1 C1       GND
+         C2       +5V_SERVO1
+         C3       SERVO1PWM
+         C4                *** unconnected ***
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+CLAWSERVO2 C1       GND
+         C2       +5V_SERVO2
+         C3       SERVO2PWM
+         C4                *** unconnected ***
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+COMM     S1       N$155
+         S10      +5V
+         S11      +3V3
+         S12      AC_COUPLE
+         S13      GND
+         S14      N$168
+         S15      N$169
+         S16      +12V
+         S17      TETHER_TX
+         S18      TETHER_RX
+         S19      VSEL1
+         S2       N$156
+         S20      VSEL2
+         S21      COM_A
+         S22      COM_B
+         S23      COM_X
+         S24      COM_Y
+         S3       VOUT2
+         S4       VOUT1
+         S5       VIDEO1
+         S6       VIDEO2
+         S7       VIDEO3
+         S8       VIDEO4
+         S9       GND
+
+LASER    C1       +3V3
+         C2       GND
+         C3       LASER_RX
+         C4       LASER_TX
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+LEDCAMERA1 C1       GND
+         C2       +12V
+         C3       LEDPWR1
+         C4       VIDEO1
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+LEDCAMERA2 C1       GND
+         C2       +12V
+         C3       LEDPWR2
+         C4       VIDEO2
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+LEDCAMERA3 C1       GND
+         C2       +12V
+         C3       LEDPWR3
+         C4       VIDEO3
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+LEDCAMERA4 C1       GND
+         C2       +12V
+         C3       LEDPWR4
+         C4       VIDEO4
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+LEDCAMERA5 C1       GND
+         C2       LEDLOOP
+         C3       LEDLOOP
+         C4       LEDPWR5
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MICRO_   P1.1     +3V3
+         P1.2     +3V3
+         P1.3     +3V3
+         P1.4     +3V3
+         P1.5     +3V3
+         P1.6     +3V3
+         P1.7     +3V3
+         P1.8     +3V3
+         P2.1     +5V
+         P2.2     +5V
+         P2.3     +5V
+         P2.4     +5V
+         P2.5     +5V
+         P2.6     +5V
+         P2.7     +5V
+         P2.8     +5V
+         P3.1     +12V
+         P3.2     +12V
+         P3.3     +12V
+         P3.4     +12V
+         P3.5     +12V
+         P3.6     +12V
+         P3.7     +12V
+         P3.8     +12V
+         P4.1     GND
+         P4.2     GND
+         P4.3     GND
+         P4.4     GND
+         P4.5     GND
+         P4.6     GND
+         P4.7     GND
+         P4.8     GND
+         S1       S1
+         S10      S10
+         S11      S11
+         S12      S12
+         S13      S13
+         S14      S14
+         S15      S15
+         S16      FUSEDETECTP
+         S17      S17
+         S18      MCOM-
+         S19      MCOM+
+         S2       S2
+         S20      SERVO1PWM
+         S21      SERVO2PWM
+         S22      LASER_RX
+         S23      LASER_TX
+         S24      FUSEDETECTM
+         S25      CLAWPWM2
+         S26      CLAWPWM1
+         S27      LEDPWM5
+         S28      LEDPWM4
+         S29      LEDPWM3
+         S3       S3
+         S30      LEDPWM2
+         S31      LEDPWM1
+         S32      S32
+         S33      STEP1
+         S34      STEPEN
+         S35      SERVO2CURRENT
+         S36      SERVO1CURRENT
+         S37      TURNCURRENT
+         S38      TURNPWM2
+         S39      TURNPWM1
+         S4       S4
+         S40      CLAWCURRENT
+         S41      BILGEPWM
+         S42      STEPDIR2
+         S43      STEP2
+         S44      STEPDIR1
+         S45      TETHER_TX
+         S46      TETHER_RX
+         S47      VSEL1
+         S48      VSEL2
+         S5       S5
+         S6       VSEN3
+         S7       VSEN2
+         S8       VSEN1
+         S9       S9
+
+MOTOR1   C1       +48V_M1
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR2   C1       +48V_M2
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR3   C1       +48V_M3
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR4   C1       +48V_M4
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR5   C1       +48V_M5
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR6   C1       +48V_M6
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR7   C1       +48V_M7
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTOR8   C1       +48V_M8
+         C2       GND
+         C3       MCOM+
+         C4       MCOM-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+MOTORDIST_ P1.1     FUSEDETECTM
+         P1.2     FUSEDETECTM
+         P1.3     FUSEDETECTM
+         P1.4     FUSEDETECTM
+         P1.5     FUSEDETECTM
+         P1.6     FUSEDETECTM
+         P1.7     FUSEDETECTM
+         P1.8     FUSEDETECTM
+         P10.1    +3V3
+         P10.2    +3V3
+         P10.3    +3V3
+         P10.4    +3V3
+         P10.5    +3V3
+         P10.6    +3V3
+         P10.7    +3V3
+         P10.8    +3V3
+         P11.1    GND
+         P11.2    GND
+         P11.3    GND
+         P11.4    GND
+         P11.5    GND
+         P11.6    GND
+         P11.7    GND
+         P11.8    GND
+         P12.1    +48V_FILT
+         P12.2    +48V_FILT
+         P12.3    +48V_FILT
+         P12.4    +48V_FILT
+         P12.5    +48V_FILT
+         P12.6    +48V_FILT
+         P12.7    +48V_FILT
+         P12.8    +48V_FILT
+         P2.1     +48V_M1
+         P2.2     +48V_M1
+         P2.3     +48V_M1
+         P2.4     +48V_M1
+         P2.5     +48V_M1
+         P2.6     +48V_M1
+         P2.7     +48V_M1
+         P2.8     +48V_M1
+         P3.1     +48V_M2
+         P3.2     +48V_M2
+         P3.3     +48V_M2
+         P3.4     +48V_M2
+         P3.5     +48V_M2
+         P3.6     +48V_M2
+         P3.7     +48V_M2
+         P3.8     +48V_M2
+         P4.1     +48V_M3
+         P4.2     +48V_M3
+         P4.3     +48V_M3
+         P4.4     +48V_M3
+         P4.5     +48V_M3
+         P4.6     +48V_M3
+         P4.7     +48V_M3
+         P4.8     +48V_M3
+         P5.1     +48V_M4
+         P5.2     +48V_M4
+         P5.3     +48V_M4
+         P5.4     +48V_M4
+         P5.5     +48V_M4
+         P5.6     +48V_M4
+         P5.7     +48V_M4
+         P5.8     +48V_M4
+         P6.1     +48V_M5
+         P6.2     +48V_M5
+         P6.3     +48V_M5
+         P6.4     +48V_M5
+         P6.5     +48V_M5
+         P6.6     +48V_M5
+         P6.7     +48V_M5
+         P6.8     +48V_M5
+         P7.1     +48V_M6
+         P7.2     +48V_M6
+         P7.3     +48V_M6
+         P7.4     +48V_M6
+         P7.5     +48V_M6
+         P7.6     +48V_M6
+         P7.7     +48V_M6
+         P7.8     +48V_M6
+         P8.1     +48V_M7
+         P8.2     +48V_M7
+         P8.3     +48V_M7
+         P8.4     +48V_M7
+         P8.5     +48V_M7
+         P8.6     +48V_M7
+         P8.7     +48V_M7
+         P8.8     +48V_M7
+         P9.1     +48V_M8
+         P9.2     +48V_M8
+         P9.3     +48V_M8
+         P9.4     +48V_M8
+         P9.5     +48V_M8
+         P9.6     +48V_M8
+         P9.7     +48V_M8
+         P9.8     +48V_M8
+
+PWRCONV_ P1.1     +3V3
+         P1.2     +3V3
+         P1.3     +3V3
+         P1.4     +3V3
+         P1.5     +3V3
+         P1.6     +3V3
+         P1.7     +3V3
+         P1.8     +3V3
+         P2.1     +5V
+         P2.2     +5V
+         P2.3     +5V
+         P2.4     +5V
+         P2.5     +5V
+         P2.6     +5V
+         P2.7     +5V
+         P2.8     +5V
+         P3.1     +12V
+         P3.2     +12V
+         P3.3     +12V
+         P3.4     +12V
+         P3.5     +12V
+         P3.6     +12V
+         P3.7     +12V
+         P3.8     +12V
+         P4.1     +48V_FILT
+         P4.2     +48V_FILT
+         P4.3     +48V_FILT
+         P4.4     +48V_FILT
+         P4.5     +48V_FILT
+         P4.6     +48V_FILT
+         P4.7     +48V_FILT
+         P4.8     +48V_FILT
+         P5.1     GND
+         P5.2     GND
+         P5.3     GND
+         P5.4     GND
+         P5.5     GND
+         P5.6     GND
+         P5.7     GND
+         P5.8     GND
+         P6.1     +48V_RAW
+         P6.2     +48V_RAW
+         P6.3     +48V_RAW
+         P6.4     +48V_RAW
+         P6.5     +48V_RAW
+         P6.6     +48V_RAW
+         P6.7     +48V_RAW
+         P6.8     +48V_RAW
+         S1       AAAA
+         S10      N$28
+         S11      N$29
+         S12      N$30
+         S13      N$31
+         S14      N$32
+         S15      N$33
+         S16      FUSEDETECTP
+         S17      N$35
+         S18      N$36
+         S19      N$37
+         S2       BBBB
+         S20      N$38
+         S21      N$39
+         S22      N$40
+         S23      N$41
+         S24      AC_COUPLE
+         S3       N$21
+         S4       N$22
+         S5       N$23
+         S6       N$24
+         S7       N$25
+         S8       N$26
+         S9       N$27
+
+PWR_IN   P1       +48V_RAW
+         P2       +48V_RAW
+         P3       GND
+         P4       GND
+         P5       +48V_RAW
+         P6       +48V_RAW
+         P7       GND
+         P8       GND
+
+R1       1        MCOM-
+         2        MCOM+
+
+R2       1        MCOM-
+         2        MCOM+
+
+STEPPER1 C1       STEP1A1
+         C2       STEP1A2
+         C3       STEP1B1
+         C4       STEP1B2
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+STEPPER2 C1       STEP2A1
+         C2       STEP2A2
+         C3       STEP2B1
+         C4       STEP2B2
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+TURNINGMOTOR C1       TURN+
+         C2       TURN+
+         C3       TURN-
+         C4       TURN-
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
+U$3     
+U$4     
+VSENSE   C1       EXTGND
+         C2       VPROBE1
+         C3       VPROBE2
+         C4       VPROBE3
+         NC1               *** unconnected ***
+         NC2               *** unconnected ***
+
